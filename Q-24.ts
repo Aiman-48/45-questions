@@ -1,7 +1,8 @@
 let apple = "apple";
 let uppercaseApple = "APPLES";
 let thirty = 30;
-let twenty = 20
+let twenty = 20;
+let fruits = ["apple","orange","kiwi"]
 
 // test equality and inequality
 
@@ -42,4 +43,23 @@ console.log(thirty >= 5);
 console.log("\nIs thirty is less then or equal to 20?");
 console.log(thirty <= 20);
 
+//using "and" &&  operators
+console.log("\n thirty is not equal to 20 and thirty is greater than 20");
+console.log(thirty != 20 && thirty > 20);
 
+console.log("\n thirty is not equal to 20 and thirty is greater than 20");
+console.log(thirty != 20 && thirty > 40);
+
+//using "or" || operators
+console.log("\n thirty is greater then 50 or thirty is equal to 30");
+console.log(20 > 50 || 30 == 30)
+
+console.log("\n thirty is greater then 50 or thirty is not equal to 30");
+console.log(20 > 50 || 30 != 30)
+
+// testing is item included in array
+console.log("\n is oranges included in my fruits");
+console.log(fruits.includes("orange"));
+//not included
+console.log("\n is oranges not included in my fruits");
+console.log(!fruits.includes("orange"));
