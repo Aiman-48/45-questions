@@ -1,5 +1,5 @@
-// array
 "use strict";
+// array
 let Guest = ["phoppo",
     "chachu", "daadi"];
 //print message how muc pepl are invited

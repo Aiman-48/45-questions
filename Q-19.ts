@@ -1,5 +1,5 @@
 // array
-"use strict";
+
 let Guest = ["phoppo",
     "chachu", "daadi"];
 

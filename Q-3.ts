@@ -1,7 +1,7 @@
 // lower case
 
-let personName = "aiman";
-console.log("lower case:",personName.toLocaleLowerCase())
+let personName = "Aiman Tahir";
+console.log("lower case:",personName.toLowerCase())
 
 // upper case
 
