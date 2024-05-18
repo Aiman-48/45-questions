@@ -1,14 +1,7 @@
-interface Course {
-
-    courseName :string;
-    location:string;
-    students: number;
-}
-
-let Course = {
+let Course : { courseName :string;location:string;students: number;} = {
     courseName : "js and ts",
     location :"governer house",
-    students : "50000"
+    students : 50000
     
 }
 

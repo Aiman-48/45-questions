@@ -1,5 +1,3 @@
-// addng a line
-
 let guest5 = ["phoppo", "chachu", "daadi"];
 
 console.log("we can invite only two people")

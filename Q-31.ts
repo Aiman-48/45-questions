@@ -1,7 +1,7 @@
 // array condition 
 let userNames1 = ["Ali","hamna","admin","yamna","tahir","ahmed",]
 
-userNames1=[]
+userNames1 =[]
 
     if(userNames1.length === 0){
 

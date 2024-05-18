@@ -1,5 +1,4 @@
 
-let countries = ["Pakistan","SaudiaArab","Japan","China"]
+let food = ["pizza","zinger","shawarma","fries"]
 
-console.log("list of countries")
-countries.map((item) => console.log(item))
+console.log("my favourite foods are:",food)

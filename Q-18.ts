@@ -1,6 +1,6 @@
 // storing the location
 
-let places = ["SaudiaArab","Palestine","Iran","SwitzerLand","Pakistan"];
+let places : string[]= ["SaudiaArab","Palestine","Iran","SwitzerLand","Pakistan"];
 
 // array in originL ORDER
 

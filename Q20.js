@@ -1,4 +1,3 @@
 "use strict";
-let countries = ["Pakistan", "SaudiaArab", "Japan", "China"];
-console.log("list of countries");
-countries.map((item) => console.log(item));
+let food = ["pizza", "zinger", "shawarma", "fries"];
+console.log("my favourite foods are:", food);
