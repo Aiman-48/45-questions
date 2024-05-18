@@ -8,5 +8,5 @@ console.log(`${notComing} can not make it, for dinner`);
 let newGuest = "khala";
 guest3[guest3.indexOf(notComing)] = newGuest;
 console.log(guest3);
-//second invitation
-guest3.map((myguest) => console.log(`hello,${myguest} you are invited to dinner,be on time`));
+//second invitation ussing looop foreach method of array
+guest3.forEach((myguest) => console.log(`hello,${myguest} you are invited to dinner,be on time`));

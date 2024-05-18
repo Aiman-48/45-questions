@@ -1,4 +1,6 @@
 "use strict";
-let guest = ["phoppo",
+let guests = ["phoppo",
     "chachu", "daadi"];
-guest.map((myguest) => console.log(`hello,${myguest} you are invited to dinner`));
+guests.forEach(guest => {
+    console.log(`Dear ${guest}, would you like to join me for dinner?`);
+});

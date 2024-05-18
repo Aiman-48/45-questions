@@ -1,8 +1,7 @@
-let firstName = "Aiman\tTahir";
+let myName = "\t\n Aiman tahir\t\n "; // name with white space
 
-let secondName ="Aiman\nTahir";
 
-console.log(firstName);
+console.log(myName);
 
-console.log(secondName)
+console.log(myName.trim())// without white space 
 
