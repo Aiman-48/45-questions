@@ -1,10 +1,9 @@
 let petAnimals = ["cat","Dog", "Rabbit"]
 
-// using for loop
+// using forEach method 
 
-for (let onePet of petAnimals){
 
-    console.log(`a ${onePet} would make a great pet`)
-}
-
-console.log("any of these animals would make a great pet!")
+petAnimals.forEach(animal => {
+    console.log(`A ${animal} would make a great pet.`);
+});
+console.log("Any of these animals would make a great pet!");

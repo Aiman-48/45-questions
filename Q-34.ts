@@ -1,13 +1,13 @@
 //array
 
-let pizza = ["chicken tikka",
+let pizzas = ["chicken tikka",
     "malai cheese",
     "fajita"
 ]
 
 // using for loop
 
-for (let onePizza of pizza){
+for (let onePizza of pizzas){
 
     console.log(`I like ${onePizza} pizza`)
 }

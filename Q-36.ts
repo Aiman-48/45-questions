@@ -1,7 +1,7 @@
 
 function makeShirt (size:string, printMsg : string){
 
-    console.log(`you selected ${size} size shirt  ${printMsg}`)
+    console.log(`you selected ${size}size ${printMsg}`)
 }
 makeShirt("medium","cotton shirt")
 

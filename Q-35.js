@@ -1,7 +1,7 @@
 "use strict";
 let petAnimals = ["cat", "Dog", "Rabbit"];
-// using for loop
-for (let onePet of petAnimals) {
-    console.log(`a ${onePet} would make a great pet`);
-}
-console.log("any of these animals would make a great pet!");
+// using forEach method 
+petAnimals.forEach(animal => {
+    console.log(`A ${animal} would make a great pet.`);
+});
+console.log("Any of these animals would make a great pet!");
