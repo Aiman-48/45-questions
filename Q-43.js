@@ -1,17 +1,17 @@
 "use strict";
-function showMagicians3(magicians) {
+let magicians = ["harry poter", "yamna", "hamna"];
+function show_magicians(magicians) {
     magicians.forEach(name => console.log(name));
 }
-function makeGreat1(magicians) {
-    return magicians.map(name => `the great ${name}`);
+function make_great(magicians) {
+    let greatMagicians = [];
+    magicians.forEach(magician => {
+        greatMagicians.push(`${magician} the Great`);
+    });
+    return greatMagicians;
 }
-let magicianNames4 = ["harry poter",
-    "yamna",
-    "hamna"
-];
-let copy_magician_names = magicianNames4.slice();
-let copy_great_magicians = makeGreat1(copy_magician_names);
-console.log("original array");
-showMagicians3(magicianNames4);
-console.log("copied arrat");
-showMagicians3(copy_great_magicians);
+let greatMagicians = make_great(magicians.slice()); // Creates a new modified array
+console.log("Original magicians:");
+show_magicians(magicians); // Shows original names
+console.log("Great magicians:");
+show_magicians(greatMagicians); // Shows modified names

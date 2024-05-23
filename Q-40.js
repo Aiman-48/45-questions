@@ -1,16 +1,11 @@
 "use strict";
-function makeAlbum(artist_name, album_title, tracks) {
-    let album = {
-        artist: artist_name,
-        title: album_title,
-    };
-    if (tracks !== undefined) {
-        album.tracks = tracks;
+function make_album(artist, title, tracks) {
+    let album = { artist, title, tracks };
+    if (tracks) {
+        album['tracks'] = tracks;
     }
     return album;
 }
-// caling  func and creatin var
-let album1 = makeAlbum("aiman", "album title 1");
-let album2 = makeAlbum("yamna", "album title 2", 10);
-let album3 = makeAlbum("hamna", "album title 3");
-console.log(album1, album2, album3);
+console.log(make_album("Artist One", "The First Album"));
+console.log(make_album("Artist Two", "The Second Album"));
+console.log(make_album("Artist Three", "The Third Album", 12));

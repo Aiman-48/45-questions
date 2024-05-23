@@ -1,9 +1,8 @@
 
 function makeSandwich(...items: string []){
 
-    console.log(`\n making a sandwitch with following items : \n`);
 
-    items.forEach(singleItem => console.log(singleItem));
+   console.log(`making sandwitch with: ${items.join(', ')}.`)
 
     console.log ("\n now enjoy sandwich")
 }

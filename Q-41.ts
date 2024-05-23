@@ -1,13 +1,10 @@
-
+let magicianNames = ["harry poter","yamna","hamna"]
 
 function showMagicians(magicians : string []){
 
-    magicians.forEach(name => console.log(name))
+    magicians.forEach(magician => console.log(magician))
 }
 
-let magicianNames = ["harry poter",
-    "yamna",
-    "hamna"
-]
+
 
 showMagicians(magicianNames)
